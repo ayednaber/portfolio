@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "start http://localhost:3000/portfolio && next dev",
     "build": "next build && next export",
     "start": "next start",
     "predeploy" : "npm run build",

@@ -32,6 +32,9 @@ export default class MyDocument extends Document {
       <Html lang='en-GB'>
         <Head>
           <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+          {/* write me code that allows the favicon to be visible */}
+          <link rel="icon" href="https://ayednaber.github.io/portfolio/favicon.ico" />
+
         </Head>
         <body>
           <Main />
