@@ -39,6 +39,6 @@ export const TimeLineData = [
 export const Memoji = [
   {
     id: 1,
-    image: 'https://ayednaber.github.io/portfolio/images/ayedmemoji.png',
+    image: 'https://ayednaber.github.io/portfolio/images/ayed-memoji.png',
   }
 ]
