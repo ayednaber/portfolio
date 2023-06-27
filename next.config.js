@@ -1,4 +1,10 @@
-module.exports = {
-    basePath: '/portfolio',
-  };
-  
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+
+ // Add basePath
+  basePath: '/portfolio',
+
+}
+
+module.exports = nextConfig
