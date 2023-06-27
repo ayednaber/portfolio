@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'SincerelyAI - AI Enabled Text Translation',
     description: "A web app that uses fine-tuned GPT to produce professional emails based on user input (recipient, subject, and tone)",
-      image: '/images/sincerelyai.png',
+      image: 'https://ayednaber.github.io/portfolio/images/sincerelyai.png',
       tags: ['React', 'Node.js', 'GPT', 'APIs'],
     source: 'https://github.com/MohamedAly8/Sincerely-AI',
     visit: 'https://sincerelyai.netlify.app/',
@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'Sudoku Solver with Backtracking',
     description:"A Python program that visualizes the Sudoku puzzle using Pygame GUI and can solve any Sudoku puzzle recursively using the Backtracking Algorithm.",
-    image: '/images/sudoku.png',
+    image: 'https://ayednaber.github.io/portfolio/images/sudoku.png',
     tags: ['Python', 'Pygame GUI'],
     source: 'https://github.com/ayednaber/sudokusolver',
     visit: '',
@@ -39,6 +39,6 @@ export const TimeLineData = [
 export const Memoji = [
   {
     id: 1,
-    image: '/images/ayedmemoji.png',
+    image: 'https://ayednaber.github.io/portfolio/images/ayedmemoji.png',
   }
 ]

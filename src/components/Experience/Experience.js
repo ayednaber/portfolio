@@ -11,7 +11,7 @@ function Experience() {
                     className="vertical-timeline-element--work"
                     date={<Date>May 2023 - Aug 2023</Date>}
                     iconStyle={{background: "#3e497a", color: "#fff"}}
-                    icon={<img src="/images/rbc.png" style={{width: '100%', height: '100%', borderRadius: "40%"}}></img>}
+                    icon={<img src="https://ayednaber.github.io/portfolio/images/rbc.png" style={{width: '100%', height: '100%', borderRadius: "40%"}}></img>}
                     contentStyle={{ background: '#f0e9f7', color: '#0c1a27' }}
                 >
                     <h3 className="vertical-timeline-element-title" style={{color: "black"}}>Software Developer</h3>
@@ -25,7 +25,7 @@ function Experience() {
                     className="vertical-timeline-element--work"
                     date={<Date>Jan 2022 - Dec 2022</Date>}
                     iconStyle={{background: "#3e497a", color: "#fff"}}
-                    icon={<img src="/images/rbc.png" style={{width: '100%', height: '100%', borderRadius: "40%"}}></img>}
+                    icon={<img src="https://ayednaber.github.io/portfolio/images/rbc.png" style={{width: '100%', height: '100%', borderRadius: "40%"}}></img>}
                     contentStyle={{ background: '#f0e9f7', color: '#0c1a27' }}
                 >
                     <h3 className="vertical-timeline-element-title" style={{color: "black"}}>Full Stack Developer</h3>
