@@ -17,8 +17,8 @@ function Experience() {
                     <h3 className="vertical-timeline-element-title" style={{color: "black"}}>Software Developer</h3>
                     <h4 className="vertical-timeline-element-subtitle" style={{color: "black"}}>RBC</h4>
                     <ul style={{margin: 0, padding: 0, listStyleType: "disc", marginLeft: "20px", fontSize: "13px", marginTop: "10px"}}>
-                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Led the enhancement and migration of an end-to-end Portfolio Report Engine using Oracle Analytics Server from AIX to Linux</li>
-                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Improved running time of report engine by 10%, by using more efficient code and increasing threads</li>
+                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Led the enhancement and migration of an end-to-end portfolio report engine to Oracle Analytics Server, utilizing deep knowledge of Java, SQL, and UNIX</li>
+                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Devised an innovative solution to connect Java report engine to Oracle BI Publisher, facilitating uninterrupted project progress and ensuring on-time completion.</li>
                     </ul>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
