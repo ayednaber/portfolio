@@ -12,9 +12,9 @@ const Hero = (props) => (
         I'm Ayed
       </SectionTitle>
       <SectionText>
-        Final Year Computer Science at McMaster U | Seeking SWE New Grad Roles
+        New Grad Computer Science @ McMaster U | Full Stack Developer
       </SectionText>
-      <Button onClick={() => window.open('https://drive.google.com/file/d/1kIVIPGc4rMMo1i98Rc2uBaO2WfIOVvRn/view?usp=sharing', '_blank')}>My Resume</Button>
+      <Button onClick={() => window.open('https://drive.google.com/file/d/1B0uAsfz5D10Jkja3guGLQGjNEinnrYuo/view?usp=sharing', '_blank')}>My Resume</Button>
     </LeftSection>
     {/* <img src="/images/ayedmemoji.png" style={{objectFit: "contain", width: 450, marginLeft: 20}} /> */}
   </Section>
