@@ -9,6 +9,21 @@ function Experience() {
             <VerticalTimeline lineColor="#3e497a">
             <VerticalTimelineElement
                     className="vertical-timeline-element--work"
+                    date={<Date>September 2023 - Present</Date>}
+                    iconStyle={{background: "#3e497a", color: "#fff"}}
+                    icon={<img src="https://ayednaber.github.io/portfolio/images/rbc.png" style={{width: '100%', height: '100%', borderRadius: "40%"}}></img>}
+                    contentStyle={{ background: '#f0e9f7', color: '#0c1a27' }}
+                >
+                    <h3 className="vertical-timeline-element-title" style={{color: "black"}}>Full Stack Developer</h3>
+                    <h4 className="vertical-timeline-element-subtitle" style={{color: "black"}}>RBC</h4>
+                    <ul style={{margin: 0, padding: 0, listStyleType: "disc", marginLeft: "20px", fontSize: "13px", marginTop: "10px"}}>
+                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Migrating 5+ applications from PCF to OpenShift 4, ensuring seamless transition and zero downtime.</li>
+                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Developed Kafka consumer applications using multiple instances to OCP4 Gold Tier using Java Spring Boot, achieving high availability and effective load management.</li>
+                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Implemented Azure AD authorization flow for a .NET Web API calling a Java microservice, while having application secrets on Hashicorp Vault, ensuring timely production deployments and compliance with security standards.</li>
+                    </ul>
+                </VerticalTimelineElement>
+            <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
                     date={<Date>May 2023 - Aug 2023</Date>}
                     iconStyle={{background: "#3e497a", color: "#fff"}}
                     icon={<img src="https://ayednaber.github.io/portfolio/images/rbc.png" style={{width: '100%', height: '100%', borderRadius: "40%"}}></img>}

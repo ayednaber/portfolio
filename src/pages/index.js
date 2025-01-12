@@ -16,7 +16,7 @@ const Home = () => {
       <title>Ayed Naber</title>
     </Head>
     <Layout>
-      <Section grid>
+      <Section $grid={true}>
         <Hero />
         <BgAnimation />
       </Section>
