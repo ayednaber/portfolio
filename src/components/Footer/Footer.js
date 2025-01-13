@@ -22,19 +22,16 @@ const Footer = () => {
           <Slogan>Crafting a digital future, one line of code at a time. 💻✨</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com">
+          <SocialIcons href="https://github.com/ayednaber">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://linkedin.com">
+          <SocialIcons href="https://www.linkedin.com/in/ayed-naber/">
             <AiFillLinkedin size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://instagram.com">
-            <AiFillInstagram size="3rem" />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
       <div style={{display: "flex", alignItems: "center", justifyContent: "center", paddingTop: "13px"}}>
-        <p>© 2023 Ayed Naber. All rights reserved.</p>
+        <p>© 2025 Ayed Naber. All rights reserved.</p>
       </div>
     </FooterWrapper>
   );

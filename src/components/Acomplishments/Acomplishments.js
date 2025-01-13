@@ -5,7 +5,7 @@ import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
   { number: "3.9", text: 'Cumulative GPA'},
-  { number: "1+", text: 'Years of Professional Experience', },
+  { number: "2+", text: 'Years of Professional Experience', },
   { number: "3x", text: 'Dean\'s Honour List', },
   { number: 16, text: 'Total Co-op Months Worked', }
 ];

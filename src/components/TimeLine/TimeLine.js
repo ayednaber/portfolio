@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText style={{padding: "10px", marginBottom: "15px"}}>
-      I'm Ayed Naber. I'm going into my final year at McMaster University, pursing a B.A.Sc in Computer Science. I have over a year of experience in full stack development. I possess a strong work ethic and unwavering commitment, consistently seeking opportunities for growth and self-improvement. My hobbies include lifting, and playing soccer.
+      I'm Ayed Naber. I recently graduated with a B.A.Sc in Computer Science from McMaster University. I have over two years of experience in full stack development. I possess a strong work ethic and unwavering commitment, consistently seeking opportunities for growth and self-improvement. My hobbies include lifting and playing soccer.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

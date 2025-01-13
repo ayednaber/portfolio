@@ -31,9 +31,9 @@ export const projects = [
 export const TimeLineData = [
   { year: 2019, text: 'Joined McMaster University', },
   { year: 2020, text: 'Dean\'s Honour List ', },
-  { year: 2021, text: 'Invited to Golden Key International Society', },
   { year: 2022, text: 'Joined RBC for 12-month co-op', },
-  { year: 2023, text: 'Returned to RBC for the summer', },
+  { year: 2023, text: 'Summer Co-op and Part-time work', },
+  { year: 2024, text: 'Started working full-time at RBC', },
 ];
 
 export const Memoji = [
