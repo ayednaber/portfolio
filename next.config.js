@@ -5,7 +5,8 @@ const nextConfig = {
     basePath: '/portfolio',
     compiler: {
       styledComponents: true
-    }
+    },
+    output: 'export'
   }
   
   module.exports = nextConfig
