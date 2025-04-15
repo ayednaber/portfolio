@@ -34,6 +34,7 @@ export const TimeLineData = [
   { year: 2022, text: 'Joined RBC for 12-month co-op', },
   { year: 2023, text: 'Summer Co-op and Part-time work', },
   { year: 2024, text: 'Started working full-time at RBC', },
+  { year: 2025, text: 'Moved to EllisDon', },
 ];
 
 export const Memoji = [

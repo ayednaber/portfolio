@@ -9,7 +9,20 @@ function Experience() {
             <VerticalTimeline lineColor="#3e497a">
             <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date={<Date>September 2023 - Present</Date>}
+                    date={<Date>April 2025 - Present</Date>}
+                    iconStyle={{background: "#3e497a", color: "#fff"}}
+                    icon={<img src="https://ayednaber.github.io/portfolio/images/ellisdon.png" style={{width: '100%', height: '100%', borderRadius: "40%"}}></img>}
+                    contentStyle={{ background: '#f0e9f7', color: '#0c1a27' }}
+                >
+                    <h3 className="vertical-timeline-element-title" style={{color: "black"}}>Software Engineer</h3>
+                    <h4 className="vertical-timeline-element-subtitle" style={{color: "black"}}>EllisDon</h4>
+                    <ul style={{margin: 0, padding: 0, listStyleType: "disc", marginLeft: "20px", fontSize: "13px", marginTop: "10px"}}>
+                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Will be working with the MERN stack (MongoDB, Node.js Express and React) on a full-stack solution.</li>
+                    </ul>
+                </VerticalTimelineElement>
+            <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    date={<Date>May 2023 - Apr 2025</Date>}
                     iconStyle={{background: "#3e497a", color: "#fff"}}
                     icon={<img src="https://ayednaber.github.io/portfolio/images/rbc.png" style={{width: '100%', height: '100%', borderRadius: "40%"}}></img>}
                     contentStyle={{ background: '#f0e9f7', color: '#0c1a27' }}
@@ -17,23 +30,11 @@ function Experience() {
                     <h3 className="vertical-timeline-element-title" style={{color: "black"}}>Full Stack Developer</h3>
                     <h4 className="vertical-timeline-element-subtitle" style={{color: "black"}}>RBC</h4>
                     <ul style={{margin: 0, padding: 0, listStyleType: "disc", marginLeft: "20px", fontSize: "13px", marginTop: "10px"}}>
-                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Migrating 5+ applications from PCF to OpenShift 4, ensuring seamless transition and zero downtime.</li>
-                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Developed Kafka consumer applications using multiple instances to OCP4 Gold Tier using Java Spring Boot, achieving high availability and effective load management.</li>
-                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Implemented Azure AD authorization flow for a .NET Web API calling a Java microservice, while having application secrets on Hashicorp Vault, ensuring timely production deployments and compliance with security standards.</li>
-                    </ul>
-                </VerticalTimelineElement>
-            <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    date={<Date>May 2023 - Aug 2023</Date>}
-                    iconStyle={{background: "#3e497a", color: "#fff"}}
-                    icon={<img src="https://ayednaber.github.io/portfolio/images/rbc.png" style={{width: '100%', height: '100%', borderRadius: "40%"}}></img>}
-                    contentStyle={{ background: '#f0e9f7', color: '#0c1a27' }}
-                >
-                    <h3 className="vertical-timeline-element-title" style={{color: "black"}}>Software Developer</h3>
-                    <h4 className="vertical-timeline-element-subtitle" style={{color: "black"}}>RBC</h4>
-                    <ul style={{margin: 0, padding: 0, listStyleType: "disc", marginLeft: "20px", fontSize: "13px", marginTop: "10px"}}>
-                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Led the enhancement and migration of an end-to-end portfolio report engine to Oracle Analytics Server, utilizing deep knowledge of Java, SQL, and UNIX</li>
-                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Devised an innovative solution to connect Java report engine to Oracle BI Publisher, facilitating uninterrupted project progress and ensuring on-time completion.</li>
+                    <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Successfully migrated 5 high-impact applications from PCF to OpenShift 4, enabling cloud-native deployments with zero downtime and improved scalability.</li>
+                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Architected and deployed an asynchronous, event-driven Kafka consumer system using Java Spring Boot across multiple instances on OCP4 Gold Tier, delivering high availability and intelligent load management.</li>
+                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Built and secured an Azure AD authorization flow for a .NET Web API interacting with a Java microservice, managing credentials via Hashicorp Vault to ensure production readiness and enterprise security compliance.</li>
+                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Modernized a Java-based report engine by integrating it with Oracle BI Publisher and Oracle Analytics Server, streamlining enterprise reporting and reducing manual overhead.</li>
+                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Led the development of an OAuth2.0 user authentication system using the authorization code flow with PKCE and Azure AD, aligning with Zero Trust architecture and RBC’s internal security standards.</li>
                     </ul>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -43,13 +44,13 @@ function Experience() {
                     icon={<img src="https://ayednaber.github.io/portfolio/images/rbc.png" style={{width: '100%', height: '100%', borderRadius: "40%"}}></img>}
                     contentStyle={{ background: '#f0e9f7', color: '#0c1a27' }}
                 >
-                    <h3 className="vertical-timeline-element-title" style={{color: "black"}}>Full Stack Developer</h3>
+                    <h3 className="vertical-timeline-element-title" style={{color: "black"}}>Full Stack Developer (Co-op)</h3>
                     <h4 className="vertical-timeline-element-subtitle" style={{color: "black"}}>RBC</h4>
                     <ul style={{margin: 0, padding: 0, listStyleType: "disc", marginLeft: "20px", fontSize: "13px", marginTop: "10px"}}>
-                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Led development of internal enterprise web application in MEAN stack to generate portfolio reports for Wealth Management clients.</li>
-                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Implemented new user authentication system, using authorization code flow with PKCE and Azure AD, matching newest security standards.</li>
-                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Contributed 3 times to RBC's open source GitHub space, helping other teams apply newer solutions.</li>
-                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Held biweekly Lunch & Learn upskilling sessions for 30+ employees about Angular & React.js</li>
+                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Developed tools and dashboards for an internal enterprise web application using the MEAN stack to support portfolio reporting for Wealth Management clients.</li>
+                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Contributed to RBC’s open-source GitHub space 3 times, helping other teams adopt modern tooling and practices.</li>
+                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Hosted tech upskilling sessions for 30+ employees, sharing knowledge on Angular and React.js frameworks.</li>
+                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Rapidly adapted to enterprise workflows and collaborated across multiple teams, earning trust and increasing responsibilities early in the co-op term.</li>
                     </ul>
                 </VerticalTimelineElement>
             </VerticalTimeline>

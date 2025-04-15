@@ -12,7 +12,7 @@ const Hero = (props) => (
         I'm Ayed
       </SectionTitle>
       <SectionText>
-        New Grad Computer Science @ McMaster U | Full Stack Developer
+        Software Engineer at EllisDon | Prev @ RBC | Computer Science at McMaster University
       </SectionText>
       <Button onClick={() => window.open('https://drive.google.com/file/d/1B0uAsfz5D10Jkja3guGLQGjNEinnrYuo/view?usp=sharing', '_blank')}>My Resume</Button>
     </LeftSection>
