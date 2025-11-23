@@ -17,7 +17,10 @@ function Experience() {
                     <h3 className="vertical-timeline-element-title" style={{color: "black"}}>Software Engineer</h3>
                     <h4 className="vertical-timeline-element-subtitle" style={{color: "black"}}>EllisDon</h4>
                     <ul style={{margin: 0, padding: 0, listStyleType: "disc", marginLeft: "20px", fontSize: "13px", marginTop: "10px"}}>
-                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Will be working with the MERN stack (MongoDB, Node.js Express and React) on a full-stack solution.</li>
+                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Developed and maintained full-stack web applications using the MERN stack (MongoDB, Express.js, React, Node.js), contributing to scalable and maintainable codebases.</li>
+                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Built features and modules for an enterprise wide application using Angular and Java Spring Boot, integrating with a SQL-based relational database.</li>
+                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Designed and implemented an AI-powered document-processing pipeline in Palantir Foundry to automatically extract submittals from complex project specification documents, improving accuracy and reducing manual review time through collaborative human-in-the-loop workflows.</li>
+                        <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Collaborated in an Agile team environment with product owners, QA engineers, and DevOps to design and deliver microservice-based solutions aligned with cloud-native architecture.</li>
                     </ul>
                 </VerticalTimelineElement>
             <VerticalTimelineElement

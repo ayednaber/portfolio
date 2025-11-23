@@ -39,7 +39,7 @@ const Header = () =>  (
       <SocialIcons href="https://www.linkedin.com/in/ayed-naber/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/ayed-naber/overlay/1635511507965/single-media-viewer/?profileId=ACoAAC1pJI0BdrgLfYaYNh6WGmJT_AzvXqr-JJA">
+      <SocialIcons href="https://drive.google.com/file/d/1FRyXDTNu9Ercqb1O2OHxRyb7qH0LW1_G/view?usp=sharing">
         <IoIosPaper size="3rem" />
       </SocialIcons>
     </Div3>

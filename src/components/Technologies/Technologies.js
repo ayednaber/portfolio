@@ -20,7 +20,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            React.js, Angular, HTML, CSS, JavaScript
+            React.js, Angular, HTML, CSS, JavaScript/TypeScript
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -29,7 +29,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Java, Python, Node.js, Express, MongoDB, SQL, Spring Boot
+            Java, Python, Node.js, Express, MongoDB, SQL, Spring Boot, Kafka, Palantir Foundry
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -47,7 +47,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Tools</ListTitle>
           <ListParagraph>
-            VS Code, Visual Studio, Git, GitHub
+            VS Code, Visual Studio, Git, GitHub, SQL Developer, mySQLWorkbench, noSQLBooster
           </ListParagraph>
         </ListContainer>
       </ListItem>
