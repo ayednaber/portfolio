@@ -2,11 +2,58 @@ import React from "react";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { Date } from "../TimeLine/TimeLineStyles";
+import styled from "styled-components";
+
+const ExperienceContainer = styled.div`
+  .experience {
+    width: 100%;
+    padding: 0;
+  }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    .vertical-timeline-element-content {
+      padding: 1.5em !important;
+    }
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    .vertical-timeline {
+      width: 100% !important;
+    }
+
+    .vertical-timeline-element {
+      margin: 0 0 30px 0 !important;
+      opacity: 1 !important;
+      animation: none !important;
+    }
+
+    .vertical-timeline-element-content {
+      padding: 1.2em !important;
+      font-size: 14px !important;
+      opacity: 1 !important;
+      animation: none !important;
+    }
+
+    .vertical-timeline-element-icon {
+      opacity: 1 !important;
+      animation: none !important;
+    }
+
+    .vertical-timeline-element-title {
+      font-size: 18px !important;
+    }
+
+    .vertical-timeline-element-subtitle {
+      font-size: 16px !important;
+    }
+  }
+`;
 
 function Experience() {
     return (
-        <div className="experience">
-            <VerticalTimeline lineColor="#3e497a">
+        <ExperienceContainer>
+            <div className="experience">
+                <VerticalTimeline lineColor="#3e497a">
             <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     date={<Date>April 2025 - Present</Date>}
@@ -56,8 +103,9 @@ function Experience() {
                         <li style={{margin: 0, padding: 0, listStyleType: "disc"}}>Rapidly adapted to enterprise workflows and collaborated across multiple teams, earning trust and increasing responsibilities early in the co-op term.</li>
                     </ul>
                 </VerticalTimelineElement>
-            </VerticalTimeline>
-        </div>
+                </VerticalTimeline>
+            </div>
+        </ExperienceContainer>
     )
 }
 

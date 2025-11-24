@@ -32,6 +32,65 @@ const GlobalStyles = createGlobalStyle`
     list-style: none;
   }
 
+  /* Desktop: Allow original animations to work normally, but prevent shrinking after animation completes */
+  /* Ensure elements stay at scale(1) when animation is done to prevent the "shrinking back" issue */
+  .vertical-timeline-element--in-view:not(.vertical-timeline-element--animate) .vertical-timeline-element-content,
+  .vertical-timeline-element--in-view:not(.vertical-timeline-element--animate) .vertical-timeline-element-icon {
+    transform: scale(1) !important;
+  }
+
+  /* Disable animations on mobile where they act funny */
+  @media screen and (max-width: 768px) {
+    .vertical-timeline-element {
+      opacity: 1 !important;
+      transform: scale(1) !important;
+      animation: none !important;
+    }
+
+    .vertical-timeline-element--work {
+      opacity: 1 !important;
+      transform: scale(1) !important;
+      animation: none !important;
+    }
+
+    .vertical-timeline-element-content {
+      opacity: 1 !important;
+      transform: scale(1) !important;
+      animation: none !important;
+    }
+
+    .vertical-timeline-element-icon {
+      opacity: 1 !important;
+      transform: scale(1) !important;
+      animation: none !important;
+    }
+
+    .vertical-timeline-element--animate,
+    .vertical-timeline-element--animate .vertical-timeline-element-content,
+    .vertical-timeline-element--animate .vertical-timeline-element-icon {
+      opacity: 1 !important;
+      transform: scale(1) !important;
+      animation: none !important;
+    }
+  }
+
+  /* Hero bitmoji image mobile styles */
+  @media screen and (max-width: 768px) {
+    .hero-memoji {
+      width: 100% !important;
+      max-width: 300px !important;
+      margin: 20px auto 0 auto !important;
+      display: block !important;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .hero-memoji {
+      max-width: 250px !important;
+      margin: 20px auto 0 auto !important;
+    }
+  }
+
 `;
 
 export default GlobalStyles;
